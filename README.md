@@ -1,28 +1,55 @@
-# AA-practices
+# AA-Practices
 
-Repositorio de prácticas de la asignatura **Aprendizaje Automático (AA)**.
+Practices for the **Machine Learning (AA)** course — University of Granada, 2025-26.
 
-## Estado actual
-Hasta ahora se ha completado la **Práctica 1**, desarrollada en un notebook de Jupyter:
+All practices are developed as Jupyter notebooks (`.ipynb`), designed to run on Google Colab or locally.
 
-- `practice-1/P1_Ismael_Sallami_Moreno.ipynb`
+## Practices
 
-Además, dentro de `practice-1/README.md` está documentado en detalle:
-- El objetivo de la práctica
-- Los ejercicios de clasificación y regresión realizados
-- Modelos evaluados y métricas usadas
-- Requisitos y forma de ejecución
+| # | Folder | Topic | Techniques |
+|---|--------|-------|------------|
+| 1 | `practice-1/` | Supervised Learning | Logistic Regression, KNN, SVM, Random Forest |
+| 2 | `practice-2/` | Unsupervised Learning | K-Means, DBSCAN, Apriori, FP-Growth |
+| 3 | `practice-3/` | Intro to Deep Learning | MLP (Keras), Sentiment Analysis (IMDB) |
+| Project | `project/` | Chatbot with Deep Learning | Seq2Seq, LSTM (Encoder-Decoder) |
 
-## Estructura del repositorio
+## Repository structure
 
 ```text
 AA-practices/
-├── LICENSE
 ├── README.md
-└── practice-1/
-    ├── P1_Ismael_Sallami_Moreno.ipynb
-    └── README.md
+├── LICENSE
+├── .gitignore
+├── practice-1/
+│   ├── P1_Ismael_Sallami_Moreno.ipynb
+│   └── README.md
+├── practice-2/
+│   ├── P2_Sallami_Moreno_Ismael.ipynb
+│   └── README.md
+├── practice-3/
+│   └── P3_SALLAMI_MORENO_ISMAEL.ipynb
+└── project/
+    └── Proyecto_Sallami_Rodriguez.ipynb
 ```
 
-## Licencia
-Este repositorio usa la licencia **Apache 2.0** (ver archivo `LICENSE`).
+## How to run
+
+### Google Colab (recommended)
+1. Open the `.ipynb` file in Colab.
+2. Run all cells in order.
+
+### Local
+```bash
+pip install jupyter pandas numpy matplotlib seaborn scikit-learn scipy mlxtend tensorflow keras
+jupyter notebook
+```
+
+## Authors
+
+**Ismael Sallami Moreno** — Double Degree in Computer Science and Mathematics, University of Granada.
+
+Final project co-authored with **Jesús Rodríguez González**.
+
+## License
+
+See [LICENSE](LICENSE).

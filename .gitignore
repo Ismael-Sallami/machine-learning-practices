@@ -1,0 +1,30 @@
+# ====================
+# IDE / Editor
+# ====================
+.vscode/
+.idea/
+
+# ====================
+# AI / session tools
+# ====================
+.opencode/
+.agent/
+.claude/
+
+# ====================
+# Python
+# ====================
+.venv/
+__pycache__/
+*.pyc
+
+# ====================
+# Jupyter checkpoints
+# ====================
+.ipynb_checkpoints/
+
+# ====================
+# OS files
+# ====================
+.DS_Store
+Thumbs.db
