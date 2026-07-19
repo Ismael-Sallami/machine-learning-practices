@@ -46,7 +46,7 @@ jupyter notebook
 
 ## Authors
 
-**Ismael Sallami Moreno** — Double Degree in Computer Science and Mathematics, University of Granada.
+**Ismael Sallami Moreno** — Double Degree in Computer Science and Business Administration, University of Granada.
 
 Final project co-authored with **Jesús Rodríguez González**.
 
