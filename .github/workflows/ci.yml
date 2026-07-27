@@ -1,0 +1,24 @@
+# The notebooks ran on Colab against datasets that are not in the repository, so
+# they cannot be executed here. What is checked is that each one is a well formed
+# notebook and that every code cell parses as Python.
+
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check every notebook
+        run: python3 tools/check-notebooks.py
