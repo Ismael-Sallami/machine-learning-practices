@@ -11,8 +11,8 @@ one explaining why the model was chosen before showing that it works.
 
 ## Context
 
-Coursework for **Aprendizaje Automático**, year 4 of the double degree in Computer Science
-and Business Administration, University of Granada (2025-26). The three practices are solo
+Coursework for **Machine Learning**, year 4 of the double degree in Computer Science and
+Business Administration, University of Granada (2025-26). The three practices are solo
 work; the final project is joint work with **Jesús Rodríguez González**.
 
 ## The problem
